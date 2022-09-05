@@ -1,0 +1,8 @@
+read -p "directory name: " Dir
+if [ -d $Dir ]
+then
+     echo "Directory is Already exist."
+else
+    echo "Directory is not present."
+fi
+  mkdir $Dir
